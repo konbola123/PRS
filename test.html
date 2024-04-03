@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side Navbar Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="sidebar" id="sidebar">
+    <button class="closebtn" onclick="closeNav()">×</button>
+    <ul id="messages"></ul>
+    <form id="form" action="">
+        <input  class="B" id="input" autocomplete="off" />
+        <button type="button" class="B1">Send</button>
+    </form>
+  </div>
+  <div class="content">
+    <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
+    
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("sidebar").style.width = "320px";
+      document.getElementsByClassName("closebtn")[0].style.display = "block";
+    }
+
+    function closeNav() {
+      document.getElementById("sidebar").style.width = "0";
+      document.getElementsByClassName("closebtn")[0].style.display = "none";
+    }
+  </script>
+</body>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #106feb;
+    padding-top: 20px;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .sidebar ul li {
+    padding: 10px;
+  }
+
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .sidebar ul li a:hover {
+    background-color: #555;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .content h1 {
+    color: #333;
+  }
+
+  .content p {
+    color: #666;
+  }
+
+  .openbtn,
+  .closebtn {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    padding: 10px 15px;
+    z-index: 999;
+    margin-left: 14px;
+  }
+
+  .openbtn:hover,
+  .closebtn:hover {
+    background-color: #555;
+  }
+
+  .openbtn {
+    left: 10px;
+    margin-left:340px  
+  }
+
+  .closebtn {
+    left: 260px;
+    display: none;
+  }
+
+  .B{
+    margin-bottom: 23px;
+    margin-top: 580px;
+    margin-left: 23px;
+    padding-left: 23px;
+    height: 23px;
+  }
+
+  .B1{
+    margin-left:-14px;
+    position:relative;
+    left:23px
+  }
+</style>
+
+</html>

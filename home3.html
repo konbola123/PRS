@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowchart Example</title>
+  <!-- Include Mermaid.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <!-- Initialize Mermaid -->
+  <script>mermaid.initialize({startOnLoad:true});</script>
+  <!-- Custom CSS for styling -->
+  <style>
+    /* Style for the container of the flowchart */
+    .mermaid-container {
+      width: 100%;
+      max-width: 600px; /* Adjust as needed */
+      margin: 0 auto;
+    }
+
+    /* Style for the flowchart nodes */
+    .node rect {
+      fill: #f0f0f0; /* Node background color */
+      stroke: #999; /* Node border color */
+      stroke-width: 1px;
+      rx: 5px; /* Rounded corners */
+      width: 250px; /* Set the width of the node */
+      height: 100px; /* Set the height of the node */
+    }
+
+    /* Style for the flowchart node text */
+    .node text {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      fill: #333; /* Node text color */
+    }
+
+    /* Style for the flowchart arrows */
+    .edgePath .path {
+      stroke: #999; /* Arrow color */
+      stroke-width: 1.5px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Container for the flowchart -->
+  <div class="mermaid mermaid-container">
+    graph TD;
+    A[Step 1:
+   <h2>Aptitude</h2>] --> B[Step 2:<h2>HR Round</h2>];
+    B --> C[Step 3:<h2>Coding Round</h2>];
+    C --> D[Step 4:<h2>Techanical Interview</h2>];
+    D --> E[Step 5];
+  </div>
+</body>
+</html>

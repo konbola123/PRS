@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+
+    <form id="registrationForm" action="/register" method="post">
+        <nav>
+        <h2> Registration Form</h2>
+    </nav>
+    <hr>
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mobile no"> Mobile No</label>
+        <input type="mobno" id=" mobno" name="mobno" required>
+
+        <label for="username"> Username</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password"> Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="Designation">Select Designation</label>
+        <select id="designation" name="designation" required>
+            <option>Select</option>
+            <option value="student"> Student</option>
+            <option value="java developer"> Java Developer</option>
+            <option value="python developer"> Python Developer</option>
+            <option value="backend developer"> Backend Developer </option>
+            <option value="frontend developer"> Frontend Developer </option>
+            <option value="android developer"> Android Developer</option>
+            <option value="ios developer"> ios Developer</option>
+            <option value="graphics designer"> Graphics Designer </option>
+            <option value="mechanical engineer"> Mech.Engg</option>
+            <option value="chemical engineer"> Chem.Engg</option>
+            <option value="other"> Other </option>
+        </select>
+
+        
+
+        <button type="submit">Submit</button>
+        <footer>
+            <p> Already having account? <a href="login.html"> login here</a> </p>
+        </footer>
+    </form>
+
+    
+
+
+        
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+form {
+    max-width: 500px;
+    margin: 70px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid mediumpurple;
+}
+h2{
+    text-align: center;
+}
+
+nav{ background-color: mediumpurple;
+    padding: 5px;
+    position: relative;
+    bottom:6px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 220px;
+    bottom: 2px;
+    
+}
+
+button:hover {
+    background-color: #45a049;
+}   
+</style>
+</body>
+</html>

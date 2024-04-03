@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connectwith</title>
+<style>
+  /* Style for the card container */
+  .card {
+    width: 763px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2, 0.2);
+    background-color: #fff;
+    margin: 20px auto;
+    text-align: center;
+    border: 1.5px solid #333; /* Dark border */
+    margin-left: 487px;
+  }
+
+  /* Style for the card title */
+  .card h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: left; /* Align title to the left */
+    margin-bottom: 10px; /* Add space between title and content */
+  }
+
+  /* Style for the card content */
+  .card p {
+    font-size: 16px;
+    color: #666;
+    text-align: center; /* Center-align content */
+  }
+  .card img {
+      max-width: 100%;
+      margin-bottom: 20px;
+      /* Add space below the logo */
+      display: block;
+      /* Ensure the image behaves like a block element */
+      margin-left: auto;
+      /* Align the logo to the left */
+      margin-right: auto;
+      /* Align the logo to the left */
+      width: 230px;
+      /* Set the width of the logo */
+      height: 100px;
+      /* Maintain aspect ratio */
+      margin-left:-20px;
+    }
+</style>
+
+
+<style>
+  /* Style for the card container */
+  .card2 {
+    width: 763px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2, 0.2);
+    background-color: #fff;
+    margin: 20px auto;
+    text-align: center;
+    border: 1.5px solid #333; /* Dark border */
+    margin-left: 487px;
+  }
+
+  /* Style for the card title */
+  .card2 h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: left; /* Align title to the left */
+    margin-bottom: 10px; /* Add space between title and content */
+  }
+
+  /* Style for the card content */
+  .card2 p {
+    font-size: 16px;
+    color: #666;
+    text-align: center; /* Center-align content */
+  }
+  .card2 img {
+      max-width: 100%;
+      margin-bottom: 20px;
+      /* Add space below the logo */
+      display: block;
+      /* Ensure the image behaves like a block element */
+      margin-left: auto;
+      /* Align the logo to the left */
+      margin-right: auto;
+      /* Align the logo to the left */
+      width: 190px;
+      /* Set the width of the logo */
+      height: 150px;
+      /* Maintain aspect ratio */
+      margin-left:-13px;
+
+    }
+</style>
+
+
+<style>
+  /* Style for the card container */
+  .card1 {
+    width: 763px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2, 0.2);
+    background-color: #fff;
+    margin: 20px auto;
+    text-align: center;
+    border: 1.5px solid #333; /* Dark border */
+    margin-left: 487px;
+  }
+
+  /* Style for the card title */
+  .card1 h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: left; /* Align title to the left */
+    margin-bottom: 10px; /* Add space between title and content */
+  }
+
+  /* Style for the card content */
+  .card1 p {
+    font-size: 16px;
+    color: #666;
+    text-align: center; /* Center-align content */
+  }
+  .card1 img {
+      max-width: 100%;
+      margin-bottom: 20px;
+      /* Add space below the logo */
+      display: block;
+      /* Ensure the image behaves like a block element */
+      margin-left: auto;
+      /* Align the logo to the left */
+      margin-right: auto;
+      /* Align the logo to the left */
+      width: 220px;
+      /* Set the width of the logo */
+      height: 130px;
+      /* Maintain aspect ratio */
+      margin-left:-20px;
+
+    }
+</style>
+
+
+
+</head>
+<body>
+
+<div class="card1" onclick="openNav1()">
+  <img src="https://cdn-ukwest.onetrust.com/logos/8d84415b-1b52-4bc4-8d5f-ca9a8eccaf8a/f7db8968-fc22-4620-92ac-dc05c5d2aa15/02460a41-565e-4cac-80a7-449bc8f77a72/logo-infosys.png" alt="Logo">
+  <h3><a href="form.html">Apply here</a></h3>
+  
+  <p>This is a sample card content. You can put any text or HTML content here.</p>
+</div>
+<div class="card" onclick="openNav()">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScz8GvbXFR548bsC47Mcx1CQB_Ii3kRCt5-Q_8_IaX8Q&s" alt="Logo">
+    <h2>TCS</h2>
+    <P><h1>Java developer</h1></P>
+    <p><h4>skills</h4></p>
+
+  </div>
+  <div class="card" onclick="openNav()">
+    <img src="https://www.financialexpress.com/wp-content/uploads/2022/09/hcl1.jpg" alt="Logo">
+     <h2>TCS</h2>
+     <p>This is a sample card content. You can put any text or HTML content here.</p>
+   </div>
+   <div class="card2" onclick="openNav2()">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/L%26T.png" alt="Logo">
+     <h2>TCS</h2>
+     <p>This is a sample card content. You can put any text or HTML content here.</p>
+   </div>
+
+   <style>
+    /* Sidebar styles */
+    .sidebar {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #333;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 20px;
+
+    }
+
+    /* Sidebar content */
+    .sidebar-content {
+      padding: 10px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #fff;
+      display: block;
+      transition: 0.3s;
+    }
+
+    /* Change color on hover */
+    .sidebar-content:hover {
+      background-color: #555;
+    }
+
+ 
+
+    /* Close button inside the sidebar */
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 24px;
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    /* Card styles */
+    .card14 {
+      background-color: #fff;
+      border-radius: 17px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 12px;
+      padding: 20px;
+      height: 1700px
+         }
+
+         .contact-info {
+    margin-top: 20px;
+    color: black;
+  }
+
+  .pattern{
+    
+    color: #030304;
+    margin-top: -21px;
+    margin-left: 8px;
+   
+  }
+
+  .logo-container {
+      width: 25px;
+      /* Adjust as needed */
+      height: auto;
+      /* Adjust as needed */
+      margin: 20px;
+      /* Adjust as needed */
+    }
+
+    .logo-container img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+
+  <style type="text/css">
+    .logo-container {
+      width: 25px;
+      /* Adjust as needed */
+      height: auto;
+      /* Adjust as needed */
+      margin: 20px;
+      /* Adjust as needed */
+      float:left;
+      
+
+    }
+
+    .logo-container img {
+      max-width: 100%;
+      height: auto;
+      
+    }
+
+    .logo-container1 {
+      width: 35px;
+      /* Adjust as needed */
+      height: auto;
+      /* Adjust as needed */
+      margin: 20px;
+      /* Adjust as needed */
+      
+    }
+
+    .logo-container1 img {
+      max-width: 100%;
+      height: auto;
+      margin-left:-3px
+      
+    }
+
+    .logo-container2 {
+      width: 51px;
+      /* Adjust as needed */
+      height: auto;
+      /* Adjust as needed */
+      margin: 20px;
+      /* Adjust as needed */
+      
+    }
+
+    .logo-container2 img {
+      max-width: 100%;
+      height: auto;
+      margin-left:-12px;
+      
+    }
+
+  
+
+    .button-2 {
+      background-color: rgba(193, 239, 178, 0.983);
+    border-radius: 8px;
+    border-width: 0;
+    color: #423f3f;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    float: left;
+    margin-bottom: 23px;
+    margin-top: 14px;
+    }
+    
+
+    .button-3 {
+      background-color: rgba(193, 239, 178, 0.983);
+    border-radius: 8px;
+    border-width: 0;
+    color: #423f3f;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    float: left;
+    margin-bottom: 23px;
+    margin-top: 14px;
+    margin-left:13px
+    }
+
+    ul {
+        list-style-type: disc; /* Set the list style to disc (default bullet) */
+        color: black; /* Set the color of the bullet */
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Button to open the sidebar -->
+ 
+
+  <!-- Sidebar -->
+  <div id="mySidebar" class="sidebar" >
+    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+    <div class="sidebar-content">
+      <h3>Information</h3>
+      <div class="card14">
+        <h4>Item 1</h4>
+        <p></p>
+        <div class="contact-info">
+          <h1>Junior Software Developer</h1>
+          <p class="pattern">L&T technology services</p> 
+          <div class="logo-container">
+            <img class="img23" src="https://cdn.vectorstock.com/i/preview-1x/61/72/briefcase-icon-black-businessman-bag-office-job-vector-45006172.jpg">
+          </div>
+          <button class="button-2" role="button">Hybrid</button>
+          <button class="button-3" role="button">Full time</button>
+          
+          <div class="logo-container1">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Yie01Z9L_VyQ5H_heYeG3smUfXOAKFwB37q7M9PHW0fKszd_12S-w8QRkrjcVg5Rrlk&usqp=CAU"
+              alt="Company Logo">
+          </div>
+          <div class="logo-container2">
+            <img class="img23" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAYFBMVEX///8AAAAWFhYQEBBiYmLr6+sZGRkTExP39/fe3t4gICCvr6/7+/ukpKRqamqnp6dJSUmSkpIJCQlUVFTHx8fU1NTk5ORxcXEqKiozMzM+Pj45OTmenp6IiIi3t7d5eXlHmjiwAAAG9UlEQVR4nO2ca6OqrBaFm5KoSKV4Scv0///LA16hvQt713JHnfl8srU0GYGTwQTc7RAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQf4/4GW0gjJ8dznXwPNjtoJ947+7pCvwOyBEWCAEqvzdJV1BeRaMEgseYx8hxj8LaG1PTH4hHyOmsJ6UCBTzr5nE+PkDCs4/TYxfwSPaj6uZAsSDSAbpx4kJ0+P5rxy78uPEyIMH8N0Hinl60qeI6QREtpNCKWZUzLcu0H8jvO0VNfOyvY2Ksf6ks7US30TLhOcF0nYxGliYTvLg/O5SPyCWBXzYufwVwYLju0v9gJjRSxu/QNsFnrtiguzFK+CLxBxQzD9hFPPQLptIU+O+mPBwqa8rUBbNeTH+GWhgywEENGD5R4gRrLJQV4xWnyEGIOfhU3iZkA8Rs941o5iN4GWhEaXSLg/N7FRYyKdmRjPj79H7MtD+3rCNhNFsyGgKq8UcMpoHuLOm9H0jgkiWSUsrB5WX9LlmIcCWbBZQF4MY7WTK4PS2sVpEaL0/ziRMieF5d1zDwe/F1NqfLu8VQ7K8nPAPfc3suF+uQT0d8pnZL2dHN3izGG24H/c18wpmNOOpi2JWF2gW018ROilmNWbNuCEmh0wZ+lFM+zjLrNP5i5i0z2u4ISYBdpjFyE6TUc8G8zTXHCUEQmfECEOMoNeLDcM1RwkF3xkxxBQDJ9sws70Ezoq5qxl7etY0mm6LedE1uy2mtSzSKIvkY5oZsweAyt0AAKyZxZRHkCN8G4xRXYwH3BUxMSTFLGZ3Wpc0P2udZgfqQifE8B3vB4iTnfHLRzOA97OBs53pFwU5IWbiO7zZyJeIKZTPnMSEtmzGgGpZkxi//+SGmPZyjmYxPE4uyQpuS645TC8uuWZ62mmu2bNNaQYB1TOaZSIcdc0q1cSopadhU6rJwU7z3s7ktrhcGLlmt8WsMJof482+yzWvaGaes2LuRprM7syoGQCYO2IyYFpo7sAemYMAjNAM7oTmNuu0TrPdr1lxnqWLaw6brNu5ImYX9a53tDPr9gJEQ655sDNh/8kRMQNfYjQHvkIMN5vZrrRb5nHCbxYTOSNGlumSz2LUxMQa9tEi5ghM/iRuiLkYCQ2Va16R0GCudpr3uWb7gMbhVNMfdub5Ao0wjNBobsoPEueZu2JIZYppWguxy1MalZ4DEKyqbTg82QTUmAak9owGJUZodiihUdQqcTw5gDyxrZ3rScOl0zxU6c4NMXy6/3d4s7EAPxGjvsIJMRP/Vcz0Y7ghJswLVYZRzMp1zRFfaqbMI2fENLprDhsC9sVzhmsOz+5MNt07ALCvBBR3/YznTmhOAtPOBPvu7zsBJ7pj7W6n+XISMPquXLO7RvN7lpvw+2cGIP1k10zMyaYVq+cYdTUHcAQW77Rcs3VRs1rXfC2WXHMGsPv3YnoLNd9vds1dqrvmbhWx5prj7vCnmHC64WYUcXNr2tIUc7dCw7LfZNx1os6cjWZ/vS4mipu0ia2B5Cf4TUZUg9/HoSFm+AVfM5r6cpNBwSImPGVqjsfLTtttdAhvXqA2InikakKVlR2j2civjWfChhF1HzkcTTd71c6BMmBNfGOCknwWo27eqn9PrvmUrqApNDFRY7jmXP5k1S1O5d3oVhGhkG0sk42dF5kQCV+aWQfXdhYT3oQ9O0spSZZo5u8FaLlmPxOQyREC9/dgDJh+k9ij1dCG84unLMvUzC6B0c+sWtds5poDvZ8pgF4HQ1RePWg30aLulfIhOncEYt01m3kzuuJ9AE9ccwxwk48kH+qq2aSd6ZHzJuD0E28WPvNmJ/mjDS2Ay8Nmk4DGG4BuEOMfiar+jVxzC+Q8BLFwux01beWxoZhxTaHcTEwkaDU8KXnl0Y3eG1LuCUlyn/uxHOae+WMx4tZYSK9PVmiEHQRZ7IdhK8PnsdxGzK6tPVH3Y16htr8tM2d3S7QqYs8BPJs5K66E1MfuXBOv3iaYSfiBABVC9s51X/mTGBmMl35GuuZV1Fo/k5iumbc1UA9U1xlv5zRldwmMyTY2PBSTGD/tvdroAKL0toZcy5vlt3xnhMviCJQxyIptRwSFtH/FaA3nqfOBn3mzxQH031dcqD2O/JRSipmeyS0XNZTDc7QtSswkYGsx2wQyreX6Ws2UgdhrN3xdzOnPfZrThy1rJpw3WAFN4vFYlT5eUuE3Ri/rkubzFdLGaR/PBG7TcXxloh2Pf9vQNEDIMH83vYqJUKq8rxfML8xQ/7K+PcPAuCLw1EaU8TVPva8eP0Dzy2KyNSkXIqyvNn16xYM3o8KLb7OxwGXgt7r6zTj+eohesyVmK35bC4IgCIIgCIIgCIIgCIIgCIIgCIIgCIIg7vM/6UgWpouB2V0AAAAASUVORK5CYII=">
+          </div>
+          <p>Phone: +1234567890</p>
+          <p>Address: 123 Street, City, Country</p>
+          <P><h3>About the job</h3></P>
+          <P>Job Title: Java Microservices Developer</P>
+          <p>Experience: 4+ years</p>
+          <p><h4>Roles and Responsibilities</h4></p>
+          <p>ndividual contributor and Java/J2EE Developer with good knowledge and experience of Java, Database, Spring framework, and Shell Scripting. The candidate should have good technical knowledge and must have a sound and proven track record in Java/J2EE and RDBMS and should also have extensive experience of software development processes, methodologies, and best practices.
+
+            Responsible for impact analysis, design, development, code reviews and owning delivery of modules end to end within Crome application space which is critical app for Margin calculation and Collateral management.</p>
+          <p>
+            <ul>
+              <li>Responsible for design & development and code reviews.</li>
+              <li> For stream-lining build & release process. (Jenkins, Maven etc.)</li>
+              <li> For mentoring junior team members</li>
+              <li>Develop, maintain and support applications.</li> 
+              <li> Delivery of enhancement and maintenance work to pre-agreed timescales and requirements for the application.</li>
+              
+          </ul>
+          </p>
+          <p><h4>Qualification, Experience & Skills</h4></p>
+          <p>Qualification: Bachelor’s in engineering or MCA equivalent.</p>
+          <P>Experience: 6 - 10 years of relevant IT experience</P>
+          <br>
+          <p><h4>Skills</h4></p>
+          <p>Must required</p>
+          <p><ul>
+            <li>Core Java</li>
+            <li> J2EE/Spring framework</li>
+            <li> 
+              RDBMS PL/SQL, Writing Stored Procedures, Query tuning</li>
+              <li> Linux/Unix Shell Scripting</li>
+          </ul></p>
+           <p><h4>Other preferred skills</h4></p>
+          <p><ul>
+            <li>
+              Docker
+            </li>
+
+            <li>
+              Spring batch/Spring cloud data flow 
+            </li>
+            <li>
+              Autosys
+            </li>
+            <li>
+              Capital Markets preferably with experience on Operations/batch processing applications
+            </li>
+          </ul></p>
+          <button class="button-27" role="button">Apply</button>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      /* CSS */
+      .button-27 {
+        appearance: none;
+        background-color: #0702ace1;
+        border: 2px solid #1e2380;
+        border-radius: 15px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0;
+        min-height: 60px;
+        min-width: 0;
+        outline: none;
+        padding: 16px 24px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: 1px will-change: transform;
+      }
+  
+      .button-27:disabled {
+        pointer-events: none;
+      }
+  
+      .button-27:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+      }
+  
+      .button-27:active {
+        box-shadow: none;
+        transform: translateY(0);
+      }
+    </style>
+    <!-- Page content -->
+
+    <div id="mySidebar1" class="sidebar" >
+      <a href="javascript:void(0)" class="close-btn" onclick="closeNav1()">&times;</a>
+      <div class="sidebar-content">
+        <h3>Information</h3>
+        <div class="card14">
+          <h4>Item 1</h4>
+          <p></p>
+          <div class="contact-info">
+            <h1>Orcale PL/SQL developer</h1>
+            <p class="pattern"> Infosys Technologies Limited</p> 
+            <div class="logo-container">
+              <img class="img23" src="https://cdn.vectorstock.com/i/preview-1x/61/72/briefcase-icon-black-businessman-bag-office-job-vector-45006172.jpg">
+            </div>
+            <button class="button-2" role="button">Hybrid</button>
+            <button class="button-3" role="button">Full time</button>
+            
+            <div class="logo-container1">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Yie01Z9L_VyQ5H_heYeG3smUfXOAKFwB37q7M9PHW0fKszd_12S-w8QRkrjcVg5Rrlk&usqp=CAU"
+                alt="Company Logo">
+            </div>
+            <div class="logo-container2">
+              <img class="img23" src="data:image/png;base64,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">
+            </div>
+            <p>Phone: +1234567890</p>
+            <p>Address: 123 Street, City, Country</p>
+            <P><h3>About the job</h3></P>
+            <P>
+              <ul>
+                <li> As part of the Infosys delivery team, your primary role would be to ensure effective Design, Development, Validation and Support activities, to assure that our clients are satisfied with the high levels of service in the technology domain.</li>
+                <li> You will gather the requirements and specifications to understand the client requirements in a detailed manner and translate the same into system requirements.</li>
+                <li>You will play a key role in the overall estimation of work requirements to provide the right information on project estimations to Technology Leads and Project Managers.</li>
+                <li>You would be a key contributor to building efficient programs/ systems and if you think you fit right in to help our clients navigate their next in their digital transformation journey, this is the place for you! If you think you fit right in to help our clients navigate their next in their digital transformation journey, this is the place for you!</li>
+                <li>Knowledge of design principles and fundamentals of architecture</li>
+                <li>Ability to translate functional / nonfunctional requirements to systems requirements</li>
+                <li>Good understanding of SDLC and agile methodologies</li>
+              </ul>
+            </P>
+            <p>Experience: 4+ years</p>
+            <p><h4>Roles and Responsibilities</h4></p>
+            <p>ndividual contributor and Java/J2EE Developer with good knowledge and experience of Java, Database, Spring framework, and Shell Scripting. The candidate should have good technical knowledge and must have a sound and proven track record in Java/J2EE and RDBMS and should also have extensive experience of software development processes, methodologies, and best practices.
+  
+              Responsible for impact analysis, design, development, code reviews and owning delivery of modules end to end within Crome application space which is critical app for Margin calculation and Collateral management.</p>
+            <p>
+              <ul>
+                <li>Responsible for design & development and code reviews.</li>
+                <li> For stream-lining build & release process. (Jenkins, Maven etc.)</li>
+                <li> For mentoring junior team members</li>
+                <li>Develop, maintain and support applications.</li> 
+                <li> Delivery of enhancement and maintenance work to pre-agreed timescales and requirements for the application.</li>
+                
+            </ul>
+            </p>
+            <p><h4>Qualification, Experience & Skills</h4></p>
+            <p>Qualification: Bachelor’s in engineering or MCA equivalent.</p>
+            <P>Experience: 6 - 10 years of relevant IT experience</P>
+            <br>
+            <p><h4>Skills</h4></p>
+            <p>Must required</p>
+            <p><ul>
+              <li>Core Java</li>
+              <li> J2EE/Spring framework</li>
+              <li> 
+                RDBMS PL/SQL, Writing Stored Procedures, Query tuning</li>
+                <li> Linux/Unix Shell Scripting</li>
+            </ul></p>
+             <p><h4>Other preferred skills</h4></p>
+            <p><ul>
+              <li>
+                Docker
+              </li>
+  
+              <li>
+                Spring batch/Spring cloud data flow 
+              </li>
+              <li>
+                Autosys
+              </li>
+              <li>
+                Capital Markets preferably with experience on Operations/batch processing applications
+              </li>
+            </ul></p>
+            <button class="button-27" role="button">Apply</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="mySidebar2" class="sidebar" >
+        <a href="javascript:void(0)" class="close-btn" onclick="closeNav3()">&times;</a>
+        <div class="sidebar-content">
+          <h3>Information</h3>
+          <div class="card14">
+            <h4>Item 1</h4>
+            <p></p>
+            <div class="contact-info">
+              <h1>Senior Software Developer</h1>
+              <p class="pattern">L&T technology services</p> 
+              <div class="logo-container">
+                <img class="img23" src="https://cdn.vectorstock.com/i/preview-1x/61/72/briefcase-icon-black-businessman-bag-office-job-vector-45006172.jpg">
+              </div>
+              <button class="button-2" role="button">Hybrid</button>
+              <button class="button-3" role="button">Full time</button>
+              
+              <div class="logo-container1">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Yie01Z9L_VyQ5H_heYeG3smUfXOAKFwB37q7M9PHW0fKszd_12S-w8QRkrjcVg5Rrlk&usqp=CAU"
+                  alt="Company Logo">
+              </div>
+              <div class="logo-container2">
+                <img class="img23" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAYFBMVEX///8AAAAWFhYQEBBiYmLr6+sZGRkTExP39/fe3t4gICCvr6/7+/ukpKRqamqnp6dJSUmSkpIJCQlUVFTHx8fU1NTk5ORxcXEqKiozMzM+Pj45OTmenp6IiIi3t7d5eXlHmjiwAAAG9UlEQVR4nO2ca6OqrBaFm5KoSKV4Scv0///LA16hvQt713JHnfl8srU0GYGTwQTc7RAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQf4/4GW0gjJ8dznXwPNjtoJ947+7pCvwOyBEWCAEqvzdJV1BeRaMEgseYx8hxj8LaG1PTH4hHyOmsJ6UCBTzr5nE+PkDCs4/TYxfwSPaj6uZAsSDSAbpx4kJ0+P5rxy78uPEyIMH8N0Hinl60qeI6QREtpNCKWZUzLcu0H8jvO0VNfOyvY2Ksf6ks7US30TLhOcF0nYxGliYTvLg/O5SPyCWBXzYufwVwYLju0v9gJjRSxu/QNsFnrtiguzFK+CLxBxQzD9hFPPQLptIU+O+mPBwqa8rUBbNeTH+GWhgywEENGD5R4gRrLJQV4xWnyEGIOfhU3iZkA8Rs941o5iN4GWhEaXSLg/N7FRYyKdmRjPj79H7MtD+3rCNhNFsyGgKq8UcMpoHuLOm9H0jgkiWSUsrB5WX9LlmIcCWbBZQF4MY7WTK4PS2sVpEaL0/ziRMieF5d1zDwe/F1NqfLu8VQ7K8nPAPfc3suF+uQT0d8pnZL2dHN3izGG24H/c18wpmNOOpi2JWF2gW018ROilmNWbNuCEmh0wZ+lFM+zjLrNP5i5i0z2u4ISYBdpjFyE6TUc8G8zTXHCUEQmfECEOMoNeLDcM1RwkF3xkxxBQDJ9sws70Ezoq5qxl7etY0mm6LedE1uy2mtSzSKIvkY5oZsweAyt0AAKyZxZRHkCN8G4xRXYwH3BUxMSTFLGZ3Wpc0P2udZgfqQifE8B3vB4iTnfHLRzOA97OBs53pFwU5IWbiO7zZyJeIKZTPnMSEtmzGgGpZkxi//+SGmPZyjmYxPE4uyQpuS645TC8uuWZ62mmu2bNNaQYB1TOaZSIcdc0q1cSopadhU6rJwU7z3s7ktrhcGLlmt8WsMJof482+yzWvaGaes2LuRprM7syoGQCYO2IyYFpo7sAemYMAjNAM7oTmNuu0TrPdr1lxnqWLaw6brNu5ImYX9a53tDPr9gJEQ655sDNh/8kRMQNfYjQHvkIMN5vZrrRb5nHCbxYTOSNGlumSz2LUxMQa9tEi5ghM/iRuiLkYCQ2Va16R0GCudpr3uWb7gMbhVNMfdub5Ao0wjNBobsoPEueZu2JIZYppWguxy1MalZ4DEKyqbTg82QTUmAak9owGJUZodiihUdQqcTw5gDyxrZ3rScOl0zxU6c4NMXy6/3d4s7EAPxGjvsIJMRP/Vcz0Y7ghJswLVYZRzMp1zRFfaqbMI2fENLprDhsC9sVzhmsOz+5MNt07ALCvBBR3/YznTmhOAtPOBPvu7zsBJ7pj7W6n+XISMPquXLO7RvN7lpvw+2cGIP1k10zMyaYVq+cYdTUHcAQW77Rcs3VRs1rXfC2WXHMGsPv3YnoLNd9vds1dqrvmbhWx5prj7vCnmHC64WYUcXNr2tIUc7dCw7LfZNx1os6cjWZ/vS4mipu0ia2B5Cf4TUZUg9/HoSFm+AVfM5r6cpNBwSImPGVqjsfLTtttdAhvXqA2InikakKVlR2j2civjWfChhF1HzkcTTd71c6BMmBNfGOCknwWo27eqn9PrvmUrqApNDFRY7jmXP5k1S1O5d3oVhGhkG0sk42dF5kQCV+aWQfXdhYT3oQ9O0spSZZo5u8FaLlmPxOQyREC9/dgDJh+k9ij1dCG84unLMvUzC6B0c+sWtds5poDvZ8pgF4HQ1RePWg30aLulfIhOncEYt01m3kzuuJ9AE9ccwxwk48kH+qq2aSd6ZHzJuD0E28WPvNmJ/mjDS2Ay8Nmk4DGG4BuEOMfiar+jVxzC+Q8BLFwux01beWxoZhxTaHcTEwkaDU8KXnl0Y3eG1LuCUlyn/uxHOae+WMx4tZYSK9PVmiEHQRZ7IdhK8PnsdxGzK6tPVH3Y16htr8tM2d3S7QqYs8BPJs5K66E1MfuXBOv3iaYSfiBABVC9s51X/mTGBmMl35GuuZV1Fo/k5iumbc1UA9U1xlv5zRldwmMyTY2PBSTGD/tvdroAKL0toZcy5vlt3xnhMviCJQxyIptRwSFtH/FaA3nqfOBn3mzxQH031dcqD2O/JRSipmeyS0XNZTDc7QtSswkYGsx2wQyreX6Ws2UgdhrN3xdzOnPfZrThy1rJpw3WAFN4vFYlT5eUuE3Ri/rkubzFdLGaR/PBG7TcXxloh2Pf9vQNEDIMH83vYqJUKq8rxfML8xQ/7K+PcPAuCLw1EaU8TVPva8eP0Dzy2KyNSkXIqyvNn16xYM3o8KLb7OxwGXgt7r6zTj+eohesyVmK35bC4IgCIIgCIIgCIIgCIIgCIIgCIIgCIIg7vM/6UgWpouB2V0AAAAASUVORK5CYII=">
+              </div>
+              <p>Phone: +1234567890</p>
+              <p>Address: 123 Street, City, Country</p>
+              <P><h3>About the job</h3></P>
+              <P>Job Title: Java Microservices Developer</P>
+              <p>Experience: 4+ years</p>
+              <p><h4>Roles and Responsibilities</h4></p>
+              <p>ndividual contributor and Java/J2EE Developer with good knowledge and experience of Java, Database, Spring framework, and Shell Scripting. The candidate should have good technical knowledge and must have a sound and proven track record in Java/J2EE and RDBMS and should also have extensive experience of software development processes, methodologies, and best practices.
+    
+                Responsible for impact analysis, design, development, code reviews and owning delivery of modules end to end within Crome application space which is critical app for Margin calculation and Collateral management.</p>
+              <p>
+                <ul>
+                  <li>Responsible for design & development and code reviews.</li>
+                  <li> For stream-lining build & release process. (Jenkins, Maven etc.)</li>
+                  <li> For mentoring junior team members</li>
+                  <li>Develop, maintain and support applications.</li> 
+                  <li> Delivery of enhancement and maintenance work to pre-agreed timescales and requirements for the application.</li>
+                  
+              </ul>
+              </p>
+              <p><h4>Qualification, Experience & Skills</h4></p>
+              <p>Qualification: Bachelor’s in engineering or MCA equivalent.</p>
+              <P>Experience: 6 - 10 years of relevant IT experience</P>
+              <br>
+              <p><h4>Skills</h4></p>
+              <p>Must required</p>
+              <p><ul>
+                <li>Core Java</li>
+                <li> J2EE/Spring framework</li>
+                <li> 
+                  RDBMS PL/SQL, Writing Stored Procedures, Query tuning</li>
+                  <li> Linux/Unix Shell Scripting</li>
+              </ul></p>
+               <p><h4>Other preferred skills</h4></p>
+              <p><ul>
+                <li>
+                  Docker
+                </li>
+    
+                <li>
+                  Spring batch/Spring cloud data flow 
+                </li>
+                <li>
+                  Autosys
+                </li>
+                <li>
+                  Capital Markets preferably with experience on Operations/batch processing applications
+                </li>
+              </ul></p>
+              <button class="button-27" href="Ask.html" role="button">Apply</button>
+            </div>
+          </div>
+        </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "500px";
+        document.getElementById("main").style.marginLeft = "300px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+
+      function openNav1() {
+        document.getElementById("mySidebar1").style.width = "500px";
+        document.getElementById("main").style.marginLeft = "300px";
+      }
+
+      function closeNav1() {
+        document.getElementById("mySidebar1").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+      function openNav2() {
+        document.getElementById("mySidebar").style.width = "500px";
+        document.getElementById("main").style.marginLeft = "300px";
+      }
+
+
+      
+    </script>
+</body>
+</html>
